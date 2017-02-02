@@ -1,0 +1,18 @@
+/* css for Unit 3 */
+
+/* create a background image*/
+
+body {
+	background-image: url(images/your_career.jpg)
+}
+h1 {
+	font-size: 250%;
+	color: #ffc800;
+}
+#Slogan{
+	font-style: italic;
+	font-size: 150%;
+}
+div.wrapper{
+	padding: 5x;
+}
