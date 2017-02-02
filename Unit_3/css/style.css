@@ -3,7 +3,7 @@
 /* create a background image*/
 
 body {
-	background: url("http://trying4m4.github.io\Unit_3\images");
+	background: url("images/career.jpg");
 	background-size: cover;
 	color: #000;
 	font-family: Arial, sans-serif;
@@ -24,8 +24,9 @@ h1 {
 	font-size: 125%;
 }
 
-li{
-	margin-left: 45px;
+ul {
+	text-align: center;
+	list-style-type: none;
 	font-size: 125%;
 }
 img{
