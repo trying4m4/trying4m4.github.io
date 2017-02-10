@@ -1,0 +1,88 @@
+/* css for Unit 4 */
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Laila');
+/*font-family: 'Anton', sans-serif;
+font-family: 'Laila', serif; */
+
+/* create a background image*/
+* {margin:0; padding:0; box-sizing:border-box;}
+body {
+	color: #000;
+	font-family: 'Laila', serif;
+}
+
+#wrapper {
+	background-color: 
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border:1px black solid;
+	padding: 20px;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#intro {
+	background: url("../images/Career.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 45rem;
+	font-size: 1.25em;
+}
+#intro div {
+    position:absolute;
+    right:5em;
+    top:10em;
+}
+h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 2.5em;
+	color: #4d4275;
+	text-align: center;
+}
+#Slogan{
+	font-family: 'Laila', serif;
+	font-style: italic;
+	color: #007ba1;
+	font-size: 150%;
+	padding: 0px 25px 0px 25px;
+	text-align: center;
+}
+#about {
+	text-align: center;
+	font-size: 125%;
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+ul {
+	text-align: center;
+	/* list-style-type: none; */
+	font-size: 125%;
+	/* list-style-position: inside; */
+	display: inline-block;
+}
+img{
+	display: inline-block;
+	margin: auto;
+	/* border: 3px solid #73AD21; */
+	/* padding: 45px; */
+	margin: 0 45px;
+}
+section {
+    padding: 5em 0;
+}
